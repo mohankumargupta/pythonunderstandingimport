@@ -31,5 +31,10 @@ someJunkText = "dasdasdadsdfsdsfsdfs";
 
 '''
 if __name__ == "__main__":
-    sendTwitterUpdateStatus('Tweet sent from file sendtweet.py')
+	#pass
+    #sendTwitterUpdateStatus('Tweet sent from file sendtweet.py')
+'''
+'''
+else:
+    print(__name__)
 '''

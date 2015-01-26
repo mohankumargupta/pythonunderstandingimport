@@ -24,8 +24,9 @@ division(denominator=2, numerator=10)
 '''
 def division(numerator, denominator=1):
     return(numerator/denominator)
+'''
 
-
+'''
 answer = division(10,2)
 print(answer)
 answer = division(10)
@@ -36,37 +37,55 @@ print(answer)
 
 #-----BUILT-IN FUNCTIONS ---------------------------------
 
-#type
+
+# ---type---
+
 '''
-type(4);
-type(4.5);
-type("hello");
-type([1,2,3]);
-type((1,2,3));
+type(4)
+type(4.5)
+type("hello")
+type([1,2,3])
+type((1,2,3))
 '''
 
+'''
 print(type(4));
 print(type(4.5));
 print(type("hello"));
 print(type([1,2,3]));
 print(type((1,2,3)));
+'''
 
-#dir
+'''
+def division(numerator, denominator=1):
+    return(numerator/denominator)
 
-#dir()
-#dir(4.5)
-#help((4.0).is_integer)
-#type("hello world")
-#dir("hello world")
-#"hello world".upper()
-#type(print)
+print(type(division))
+'''
 
+
+
+#---dir---
+
+#help(dir)
+#print(dir("hello world"))
+#print("hello world".upper())
+
+#---dir()---
+
+#print(abcd)
+#help(print)
+#print(dir(__builtins__))
+a = 5
+def division(numerator, denominator=1):
+    return(numerator/denominator)
+print(dir())     
 
 
 #-IMPORT (function definition and invocation)------------------------------
-'''
-import sendtweet
-'''
+
+#import sendtweet
+
 #-------------------------------------------------------------
 
 #-----------------------IMPORT (fail)-------------------------------------
@@ -87,16 +106,19 @@ sendtweet.sendTwitterUpdateStatus("English is a stolen language")
 
 #--CALL FUNCTION DIRECTLY WITHOUT MODULE NAME-------------------------------
 '''
-from sendtweet import sendtweet
+from sendtweet import sendTwitterUpdateStatus
 sendTwitterUpdateStatus("English is a plagiarised language")
 '''
 
 #---WHAT ABOUT tweetsent VARIABLE------------------------------------
 '''
-from sendtweet import tweetsent
+print("Before import:")
 print(dir())
-print(tweetsent)
-print(sendtweet)
+from sendtweet import someJunkText
+print("After import:")
+print(dir())
+print(someJunkText)
+print(dir(sendtweet))
 '''
 
 #-----BUILT-IN MODULES -----------------------------------

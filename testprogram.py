@@ -76,16 +76,21 @@ print(type(division))
 #print(abcd)
 #help(print)
 #print(dir(__builtins__))
+'''
 a = 5
 def division(numerator, denominator=1):
     return(numerator/denominator)
 print(dir())     
-
+'''
 
 #-IMPORT (function definition and invocation)------------------------------
-
-#import sendtweet
-
+'''
+import sendtweet
+#print(dir())
+#print(dir(sendtweet))
+#print(__name__)
+#print(sendtweet.__name__)
+'''
 #-------------------------------------------------------------
 
 #-----------------------IMPORT (fail)-------------------------------------

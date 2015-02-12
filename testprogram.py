@@ -1,3 +1,10 @@
+#PYTHON JARGON
+'''
+modules, packages
+int, float, str, bool
+list, tuple, dict
+'''
+
 
 # IMPORTS .... WTF
 '''
@@ -46,15 +53,18 @@ type(4.5)
 type("hello")
 type([1,2,3])
 type((1,2,3))
+type(False)
 '''
 
-'''
-print(type(4));
-print(type(4.5));
-print(type("hello"));
-print(type([1,2,3]));
-print(type((1,2,3)));
-'''
+
+print(type(4))
+print(type(4.5))
+print(type("hello"))
+print(type([1,2,3]))
+print(type((1,2,3)))
+print(type(True))
+print(type({'mohan':'mohangupta@live.com', 'santa':'santa@northpole.com'}))
+print(type({'apple', 'banana', 'orange'}))
 
 '''
 def division(numerator, denominator=1):

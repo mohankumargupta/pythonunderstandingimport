@@ -14,7 +14,8 @@ def sendTwitterUpdateStatus(message):
 
 
 timesent = time.strftime("%a %d %b %Y %H:%M:%S", time.localtime())
-sendTwitterUpdateStatus('Tweet sent from file sendtweet.py on ' + timesent)
+tweet = 'Tweet sent from file sendtweet.py on ' + timesent
+sendTwitterUpdateStatus(tweet)
 someJunkText = "dasdasdadsdfsdsfsdfs";
 
 
